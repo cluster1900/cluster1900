@@ -65,10 +65,9 @@ Right now I spend most of my time around:
 
 ## GitHub
 
-<p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=cluster1900&show_icons=true&hide_border=true&theme=transparent" alt="cluster1900 GitHub stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cluster1900&layout=compact&hide_border=true&theme=transparent" alt="cluster1900 top languages" />
-</p>
+- Repositories: [github.com/cluster1900?tab=repositories](https://github.com/cluster1900?tab=repositories)
+- Deriw organization: [github.com/deriwfi](https://github.com/deriwfi)
+- DEX organization: [github.com/gemx-dex](https://github.com/gemx-dex)
 
 ## Contact
 
