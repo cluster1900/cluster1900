@@ -1,4 +1,4 @@
-# Hi, I'm cluster
+# Hi, I'm Hawk Wu
 
 AI Engineer and crypto product builder working across agents, exchange systems, DEX products, and AI-native applications.
 
