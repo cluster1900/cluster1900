@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-banner-animated.gif" alt="Animated colorful Hawk Wu AI systems banner with particles and fireworks" width="100%" />
+  <img src="./assets/profile-banner.jpg" alt="Hawk Wu AI systems workspace banner" width="100%" />
 </p>
 
 # Hawk Wu / cluster1900
