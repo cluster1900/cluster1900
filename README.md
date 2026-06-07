@@ -2,40 +2,40 @@
   <img src="./assets/profile-banner-animated.gif" alt="Animated colorful Hawk Wu AI systems banner with particles and fireworks" width="100%" />
 </p>
 
-# Hawk Wu
+# Hawk Wu / cluster1900
 
-AI engineer and crypto product builder. I work where agents, exchange-grade systems, DEX products, and AI-native applications meet.
+AI agents, crypto systems, and sports intelligence.
+
+I build products at the edge of code, markets, and AI: tools that reason, trading systems that need to stay alive under pressure, and agent workflows that turn messy ideas into usable software.
 
 [![Website](https://img.shields.io/badge/Website-agent--buy.com-0A66C2?style=flat-square)](https://agent-buy.com)
 [![AI Learn](https://img.shields.io/badge/AI%20Learn-ai--learn.agent--buy.com-4C6FFF?style=flat-square)](https://ai-learn.agent-buy.com)
 [![X](https://img.shields.io/badge/X-@Wu005887-111111?style=flat-square&logo=x)](https://x.com/Wu005887)
 [![GitHub](https://img.shields.io/badge/GitHub-cluster1900-24292F?style=flat-square&logo=github)](https://github.com/cluster1900)
 
-I like building systems that feel practical after the demo is over: coding agents, RAG and memory workflows, trading products, and AI tools that can survive real users.
-
-## Now
+## Current Orbit
 
 - Building at [CoinW](https://www.coinw.com/)
-- Previously worked at KuCoin and Bitget
-- Building Deriw, a swap and futures DEX product
-- Exploring AI-native sports products and agent workflows
-- Writing AI engineering material in Chinese, from fundamentals to agent systems
+- Previously worked on exchange products and systems at KuCoin and Bitget
+- Building **Deriw**, a swap and futures DEX product
+- Exploring AI-native sports products, data workflows, and agent UX
+- Writing Chinese AI engineering material from fundamentals to autonomous agents
 
-## What I Build
+## Build Mode
 
 **AI systems**
 
-Agents, coding-agent harnesses, RAG, memory, evaluation loops, and product workflows powered by LLMs.
+Coding agents, harnesses, RAG, memory, evaluation loops, and product workflows powered by LLMs.
 
 **Crypto products**
 
-Exchange systems, swap and futures DEX design, wallet UX, account abstraction, and gasless transaction patterns.
+Exchange-grade systems, DEX trading UX, wallet flows, account abstraction, and gasless transaction patterns.
 
-**Product experiments**
+**Sports AI**
 
-Private AI and Web3 products that sit closer to real user behavior than slideware.
+Agentic products around sports data, analysis, prediction workflows, and user-facing intelligence.
 
-## Public Work
+## Public Trails
 
 - [ai-engineering-from-scratch-zh](https://github.com/cluster1900/ai-engineering-from-scratch-zh): Chinese AI engineering course from fundamentals to agent systems
 - [opencode-rs](https://github.com/cluster1900/opencode-rs): Rust experiments for coding-agent harnesses and usable agent workflows
@@ -43,11 +43,11 @@ Private AI and Web3 products that sit closer to real user behavior than slidewar
 - [eip7702-fulldemo](https://github.com/cluster1900/eip7702-fulldemo): EIP-7702 gasless transaction demo
 - [livebroadcast](https://github.com/cluster1900/livebroadcast): Go backend experiment around live broadcast workflows
 
-## Private & In-Progress
+## Behind the Scenes
 
-- **Deriw**: swap and futures DEX product work across trading UX, product logic, and Web3 infrastructure
-- **AI sports project**: AI agents and data workflows for sports-related products
-- **Exchange systems**: product and engineering experience across KuCoin, Bitget, and CoinW
+- **Deriw**: swap and futures DEX work across product logic, trading UX, and Web3 infrastructure
+- **AI sports project**: private product work combining agents, data, and sports workflows
+- **Exchange systems**: CEX product and engineering experience across KuCoin, Bitget, and CoinW
 
 ## Toolbox
 
@@ -60,7 +60,7 @@ Private AI and Web3 products that sit closer to real user behavior than slidewar
 ![RAG](https://img.shields.io/badge/RAG-4C6FFF?style=flat-square)
 ![DEX](https://img.shields.io/badge/DEX-7B2CBF?style=flat-square)
 
-## Links
+## Links & Signals
 
 - GitHub repositories: [github.com/cluster1900?tab=repositories](https://github.com/cluster1900?tab=repositories)
 - Deriw organization: [github.com/deriwfi](https://github.com/deriwfi)
