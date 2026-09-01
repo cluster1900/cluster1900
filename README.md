@@ -18,23 +18,23 @@ about taking difficult systems from first principles to production.
 
 ## What I am building now
 
+- **Deriw**: an AI-operable decentralized perpetual exchange on a dedicated Ethereum L3, spanning smart contracts, cross-chain flows, trading infrastructure, and agent skills
 - **A new LLM**: active model development; details and code will be shared as the project matures
-- **AI engineering from scratch**: a Chinese, systems-first curriculum spanning foundations, model engineering, agents, and autonomous swarms
-- **Coding-agent infrastructure**: Rust-based experiments around harnesses, tools, memory, evaluation, and reliable agent workflows
-- **Robust speech recognition**: Qwen3-based ASR work with baseline inference, WER/CER evaluation, LoRA, and routing experiments
-- **Deriw**: swap and futures DEX product work across trading UX, protocol logic, and Web3 infrastructure
+- **LLM inference infrastructure**: deploying Qwen3.6-35B-A3B FP16 on Ascend NPUs, with monolithic and disaggregated Prefill/Decode inference, K3s, GitOps, observability, and benchmarking
+- **Coding Agent**: a practical Rust-based coding agent and harness, exploring tools, memory, evaluation, and reliable engineering workflows
+- **Robust speech recognition**: Qwen3 1.7B ASR work with baseline inference, WER/CER evaluation, LoRA, and routing experiments
 - **Sports AI**: private product work combining agents, sports data, analysis, and user-facing intelligence
 
 ## Selected work
 
 | Project | What it explores | Stack |
 | --- | --- | --- |
+| [Deriw](https://github.com/deriwfi) | An AI-operable perpetual DEX, dedicated Ethereum L3, cross-chain flows, and on-chain trading skills | Solidity, Go, JavaScript |
 | [ai-engineering-from-scratch-zh](https://github.com/cluster1900/ai-engineering-from-scratch-zh) | A practical Chinese AI engineering course, from linear algebra to agent systems | Python, TypeScript, Rust, Julia |
-| [lora-asr](https://github.com/cluster1900/lora-asr) | Robust ASR based on Qwen3 1.7B, with an evaluation-first path toward LoRA and routing | Python, Transformers |
 | [opencode-rs](https://github.com/cluster1900/opencode-rs) | A Rust coding-agent harness focused on usable engineering workflows | Rust, LLM agents |
-| [ai-engineering-interview-questions-CN](https://github.com/cluster1900/ai-engineering-interview-questions-CN) | Chinese AI engineering interview questions and answers | Markdown |
+| [lora-asr](https://github.com/cluster1900/lora-asr) | Robust ASR based on Qwen3 1.7B, with an evaluation-first path toward LoRA and routing | Python, Transformers |
 | [eip7702-fulldemo](https://github.com/cluster1900/eip7702-fulldemo) | A complete EIP-7702 gasless transaction demo | Solidity |
-| [livebroadcast](https://github.com/cluster1900/livebroadcast) | Backend experiments for live-broadcast workflows | Go |
+| [ai-engineering-interview-questions-CN](https://github.com/cluster1900/ai-engineering-interview-questions-CN) | Chinese AI engineering interview questions and answers | Markdown |
 
 ## Engineering track record
 
