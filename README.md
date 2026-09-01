@@ -4,12 +4,12 @@
 
 # Hawk Wu / cluster1900
 
-**AI systems architect | Web3 infrastructure builder | LLM and agent engineer**
+**AI systems architect | Exchange and DEX infrastructure | LLM and agent engineer**
 
 I am a software architect with 13+ years of experience building high-concurrency,
-high-availability products. My work spans exchange and wallet infrastructure,
-distributed systems, developer platforms, coding agents, and applied AI. I care
-about taking difficult systems from first principles to production.
+high-availability products. My work spans exchanges, multi-chain wallets, DEX
+infrastructure, distributed systems, coding agents, and applied AI. I care about
+taking difficult systems from first principles to production.
 
 [![Website](https://img.shields.io/badge/Website-agent--buy.com-0A66C2?style=flat-square)](https://agent-buy.com)
 [![AI Learn](https://img.shields.io/badge/AI%20Learn-ai--learn.agent--buy.com-4C6FFF?style=flat-square)](https://ai-learn.agent-buy.com)
@@ -19,6 +19,7 @@ about taking difficult systems from first principles to production.
 ## What I am building now
 
 - **Deriw**: an AI-operable decentralized perpetual exchange on a dedicated Ethereum L3, spanning smart contracts, cross-chain flows, trading infrastructure, and agent skills
+- **cDEX / [APDEX](https://github.com/cluster1900/apdex)**: developing cDEX and open-sourcing an exchange-grade multi-chain DEX backend through APDEX, covering chain data, market data, routing, signing, broadcasting, cross-chain flows, perpetuals, smart trading, and risk controls
 - **A new LLM**: active model development; details and code will be shared as the project matures
 - **LLM inference infrastructure**: deploying Qwen3.6-35B-A3B FP16 on Ascend NPUs, with monolithic and disaggregated Prefill/Decode inference, K3s, GitOps, observability, and benchmarking
 - **Coding Agent**: a practical Rust-based coding agent and harness, exploring tools, memory, evaluation, and reliable engineering workflows
@@ -30,6 +31,7 @@ about taking difficult systems from first principles to production.
 | Project | What it explores | Stack |
 | --- | --- | --- |
 | [Deriw](https://github.com/deriwfi) | An AI-operable perpetual DEX, dedicated Ethereum L3, cross-chain flows, and on-chain trading skills | Solidity, Go, JavaScript |
+| [APDEX](https://github.com/cluster1900/apdex) | An open-source multi-chain DEX backend with EVM, Solana, and Tron scanners, market data, routing, signing, broadcasting, cross-chain, perpetual, and risk systems | Go, Node.js, Solana Anchor |
 | [ai-engineering-from-scratch-zh](https://github.com/cluster1900/ai-engineering-from-scratch-zh) | A practical Chinese AI engineering course, from linear algebra to agent systems | Python, TypeScript, Rust, Julia |
 | [opencode-rs](https://github.com/cluster1900/opencode-rs) | A Rust coding-agent harness focused on usable engineering workflows | Rust, LLM agents |
 | [lora-asr](https://github.com/cluster1900/lora-asr) | Robust ASR based on Qwen3 1.7B, with an evaluation-first path toward LoRA and routing | Python, Transformers |
@@ -39,11 +41,12 @@ about taking difficult systems from first principles to production.
 ## Engineering track record
 
 - Building production crypto systems at **CoinW**, after architecture and engineering roles across **KuCoin** and **Bitget**
-- Designed core infrastructure for multi-chain Web3 wallets, including market data, token services, gateways, DEX aggregation, node access, and chain indexing
+- Designed core infrastructure for multi-chain Web3 wallets and DEX products, including market data, token services, gateways, routing, node access, signing, broadcasting, and chain indexing
 - Worked on wallet products supporting **11 chains**, and later infrastructure spanning **100+ chains and 100+ DEXs**
 - Built EVM and UTXO chain scanners, transaction-signing systems, cross-chain swap services, certificate platforms, and application-security tooling
 - Led platform work for a healthcare IM system supporting large groups, 1M+ concurrent users, and 1B+ persisted chat records
 - Migrated nearly 300 mixed-language microservices toward a Kubernetes and service-mesh platform with automated environments and delivery workflows
+- Built large-scale social, video, and live-streaming backends before moving into exchange, wallet, and on-chain systems
 
 ## Areas of depth
 
@@ -53,7 +56,7 @@ LLM development, coding agents, RAG, memory, tool use, evaluation loops, LoRA, A
 
 **Crypto and Web3**
 
-Exchange systems, wallet infrastructure, EVM, Solidity, DEX aggregation, account abstraction, gasless transactions, chain indexing, and multi-chain asset systems.
+Exchange systems, wallet infrastructure, EVM, Solidity, DEX aggregation, perpetual markets, L3 rollups, account abstraction, gasless transactions, chain indexing, and multi-chain asset systems.
 
 **Distributed systems**
 
