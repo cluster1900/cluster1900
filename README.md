@@ -63,14 +63,32 @@ Go and Rust services, high-concurrency architecture, TCP/UDP/HTTP, Redis, MongoD
 
 ## Toolbox
 
+**Languages and protocols**
+
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3176C6?style=flat-square&logo=typescript&logoColor=white)
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+
+**AI and model systems**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat-square)
+![Qwen](https://img.shields.io/badge/Qwen-615CED?style=flat-square)
+![LoRA / QLoRA](https://img.shields.io/badge/LoRA%20%2F%20QLoRA-0F9D8A?style=flat-square)
 ![LLM Agents](https://img.shields.io/badge/LLM%20Agents-FF6B35?style=flat-square)
 ![RAG](https://img.shields.io/badge/RAG-4C6FFF?style=flat-square)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![ASR](https://img.shields.io/badge/ASR-00897B?style=flat-square)
+![Model Serving](https://img.shields.io/badge/Model%20Serving-6A5ACD?style=flat-square)
+![Evaluation](https://img.shields.io/badge/Model%20Evaluation-D1495B?style=flat-square)
+
+**Infrastructure and Web3**
+
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![K3s](https://img.shields.io/badge/K3s-FFC61C?style=flat-square&logo=k3s&logoColor=black)
+![Ascend NPU](https://img.shields.io/badge/Ascend%20NPU-C7000B?style=flat-square)
 ![Web3](https://img.shields.io/badge/Web3-7B2CBF?style=flat-square)
 
 ## Find me
