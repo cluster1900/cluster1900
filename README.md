@@ -77,5 +77,3 @@ Go and Rust services, high-concurrency architecture, TCP/UDP/HTTP, Redis, MongoD
 - AI notes and courses: [ai-learn.agent-buy.com](https://ai-learn.agent-buy.com)
 - X: [@Wu005887](https://x.com/Wu005887)
 - GitHub: [github.com/cluster1900](https://github.com/cluster1900)
-- Deriw: [github.com/deriwfi](https://github.com/deriwfi)
-- DEX work: [github.com/gemx-dex](https://github.com/gemx-dex)
