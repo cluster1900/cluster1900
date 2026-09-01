@@ -4,66 +4,79 @@
 
 # Hawk Wu / cluster1900
 
-AI agents, crypto systems, and sports intelligence.
+**AI systems architect | Web3 infrastructure builder | LLM and agent engineer**
 
-I build products at the edge of code, markets, and AI: tools that reason, trading systems that need to stay alive under pressure, and agent workflows that turn messy ideas into usable software.
+I am a software architect with 13+ years of experience building high-concurrency,
+high-availability products. My work spans exchange and wallet infrastructure,
+distributed systems, developer platforms, coding agents, and applied AI. I care
+about taking difficult systems from first principles to production.
 
 [![Website](https://img.shields.io/badge/Website-agent--buy.com-0A66C2?style=flat-square)](https://agent-buy.com)
 [![AI Learn](https://img.shields.io/badge/AI%20Learn-ai--learn.agent--buy.com-4C6FFF?style=flat-square)](https://ai-learn.agent-buy.com)
 [![X](https://img.shields.io/badge/X-@Wu005887-111111?style=flat-square&logo=x)](https://x.com/Wu005887)
 [![GitHub](https://img.shields.io/badge/GitHub-cluster1900-24292F?style=flat-square&logo=github)](https://github.com/cluster1900)
 
-## Current Orbit
+## What I am building now
 
-- Building at [CoinW](https://www.coinw.com/)
-- Previously worked on exchange products and systems at KuCoin and Bitget
-- Building **Deriw**, a swap and futures DEX product
-- Exploring AI-native sports products, data workflows, and agent UX
-- Writing Chinese AI engineering material from fundamentals to autonomous agents
+- **A new LLM**: active model development; details and code will be shared as the project matures
+- **AI engineering from scratch**: a Chinese, systems-first curriculum spanning foundations, model engineering, agents, and autonomous swarms
+- **Coding-agent infrastructure**: Rust-based experiments around harnesses, tools, memory, evaluation, and reliable agent workflows
+- **Robust speech recognition**: Qwen3-based ASR work with baseline inference, WER/CER evaluation, LoRA, and routing experiments
+- **Deriw**: swap and futures DEX product work across trading UX, protocol logic, and Web3 infrastructure
+- **Sports AI**: private product work combining agents, sports data, analysis, and user-facing intelligence
 
-## Build Mode
+## Selected work
 
-**AI systems**
+| Project | What it explores | Stack |
+| --- | --- | --- |
+| [ai-engineering-from-scratch-zh](https://github.com/cluster1900/ai-engineering-from-scratch-zh) | A practical Chinese AI engineering course, from linear algebra to agent systems | Python, TypeScript, Rust, Julia |
+| [lora-asr](https://github.com/cluster1900/lora-asr) | Robust ASR based on Qwen3 1.7B, with an evaluation-first path toward LoRA and routing | Python, Transformers |
+| [opencode-rs](https://github.com/cluster1900/opencode-rs) | A Rust coding-agent harness focused on usable engineering workflows | Rust, LLM agents |
+| [ai-engineering-interview-questions-CN](https://github.com/cluster1900/ai-engineering-interview-questions-CN) | Chinese AI engineering interview questions and answers | Markdown |
+| [eip7702-fulldemo](https://github.com/cluster1900/eip7702-fulldemo) | A complete EIP-7702 gasless transaction demo | Solidity |
+| [livebroadcast](https://github.com/cluster1900/livebroadcast) | Backend experiments for live-broadcast workflows | Go |
 
-Coding agents, harnesses, RAG, memory, evaluation loops, and product workflows powered by LLMs.
+## Engineering track record
 
-**Crypto products**
+- Building production crypto systems at **CoinW**, after architecture and engineering roles across **KuCoin** and **Bitget**
+- Designed core infrastructure for multi-chain Web3 wallets, including market data, token services, gateways, DEX aggregation, node access, and chain indexing
+- Worked on wallet products supporting **11 chains**, and later infrastructure spanning **100+ chains and 100+ DEXs**
+- Built EVM and UTXO chain scanners, transaction-signing systems, cross-chain swap services, certificate platforms, and application-security tooling
+- Led platform work for a healthcare IM system supporting large groups, 1M+ concurrent users, and 1B+ persisted chat records
+- Migrated nearly 300 mixed-language microservices toward a Kubernetes and service-mesh platform with automated environments and delivery workflows
+- Contributed to [GoFrame](https://goframe.org/) around ORM and HTTP framework work
 
-Exchange-grade systems, DEX trading UX, wallet flows, account abstraction, and gasless transaction patterns.
+## Areas of depth
 
-**Sports AI**
+**AI and agents**
 
-Agentic products around sports data, analysis, prediction workflows, and user-facing intelligence.
+LLM development, coding agents, RAG, memory, tool use, evaluation loops, LoRA, ASR, and AI-native product workflows.
 
-## Public Trails
+**Crypto and Web3**
 
-- [ai-engineering-from-scratch-zh](https://github.com/cluster1900/ai-engineering-from-scratch-zh): Chinese AI engineering course from fundamentals to agent systems
-- [opencode-rs](https://github.com/cluster1900/opencode-rs): Rust experiments for coding-agent harnesses and usable agent workflows
-- [ai-engineering-interview-questions-CN](https://github.com/cluster1900/ai-engineering-interview-questions-CN): Chinese AI interview questions and answers
-- [eip7702-fulldemo](https://github.com/cluster1900/eip7702-fulldemo): EIP-7702 gasless transaction demo
-- [livebroadcast](https://github.com/cluster1900/livebroadcast): Go backend experiment around live broadcast workflows
+Exchange systems, wallet infrastructure, EVM, Solidity, DEX aggregation, account abstraction, gasless transactions, chain indexing, and multi-chain asset systems.
 
-## Behind the Scenes
+**Distributed systems**
 
-- **Deriw**: swap and futures DEX work across product logic, trading UX, and Web3 infrastructure
-- **AI sports project**: private product work combining agents, data, and sports workflows
-- **Exchange systems**: CEX product and engineering experience across KuCoin, Bitget, and CoinW
+Go and Rust services, high-concurrency architecture, TCP/UDP/HTTP, Redis, MongoDB, MySQL, Elasticsearch, Kubernetes, service mesh, observability, CI/CD, and AWS operations.
 
 ## Toolbox
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3176C6?style=flat-square&logo=typescript&logoColor=white)
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![LLM Agents](https://img.shields.io/badge/LLM%20Agents-FF6B35?style=flat-square)
 ![RAG](https://img.shields.io/badge/RAG-4C6FFF?style=flat-square)
-![DEX](https://img.shields.io/badge/DEX-7B2CBF?style=flat-square)
+![Web3](https://img.shields.io/badge/Web3-7B2CBF?style=flat-square)
 
-## Links & Signals
+## Find me
 
-- GitHub repositories: [github.com/cluster1900?tab=repositories](https://github.com/cluster1900?tab=repositories)
-- Deriw organization: [github.com/deriwfi](https://github.com/deriwfi)
-- DEX organization: [github.com/gemx-dex](https://github.com/gemx-dex)
 - Website: [agent-buy.com](https://agent-buy.com)
+- AI notes and courses: [ai-learn.agent-buy.com](https://ai-learn.agent-buy.com)
 - X: [@Wu005887](https://x.com/Wu005887)
+- GitHub: [github.com/cluster1900](https://github.com/cluster1900)
+- Deriw: [github.com/deriwfi](https://github.com/deriwfi)
+- DEX work: [github.com/gemx-dex](https://github.com/gemx-dex)
