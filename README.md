@@ -19,7 +19,6 @@ taking difficult systems from first principles to production.
 ## What I am building now
 
 - **Deriw**: an AI-operable decentralized perpetual exchange on a dedicated Ethereum L3, spanning smart contracts, cross-chain flows, trading infrastructure, and agent skills
-- **cDEX / [APDEX](https://github.com/cluster1900/apdex)**: developing cDEX and open-sourcing an exchange-grade multi-chain DEX backend through APDEX, covering chain data, market data, routing, signing, broadcasting, cross-chain flows, perpetuals, smart trading, and risk controls
 - **A new LLM**: active model development; details and code will be shared as the project matures
 - **LLM inference infrastructure**: deploying Qwen3.6-35B-A3B FP16 on Ascend NPUs, with monolithic and disaggregated Prefill/Decode inference, K3s, GitOps, observability, and benchmarking
 - **Coding Agent**: a practical Rust-based coding agent and harness, exploring tools, memory, evaluation, and reliable engineering workflows
@@ -31,7 +30,7 @@ taking difficult systems from first principles to production.
 | Project | What it explores | Stack |
 | --- | --- | --- |
 | [Deriw](https://github.com/deriwfi) | An AI-operable perpetual DEX, dedicated Ethereum L3, cross-chain flows, and on-chain trading skills | Solidity, Go, JavaScript |
-| [APDEX](https://github.com/cluster1900/apdex) | An open-source multi-chain DEX backend with EVM, Solana, and Tron scanners, market data, routing, signing, broadcasting, cross-chain, perpetual, and risk systems | Go, Node.js, Solana Anchor |
+| [APDEX](https://github.com/cluster1900/apdex) | A personal, independently engineered multi-chain DEX backend, built by hand without AI-generated implementation | Go, Node.js, Solana Anchor |
 | [ai-engineering-from-scratch-zh](https://github.com/cluster1900/ai-engineering-from-scratch-zh) | A practical Chinese AI engineering course, from linear algebra to agent systems | Python, TypeScript, Rust, Julia |
 | [opencode-rs](https://github.com/cluster1900/opencode-rs) | A Rust coding-agent harness focused on usable engineering workflows | Rust, LLM agents |
 | [lora-asr](https://github.com/cluster1900/lora-asr) | Robust ASR based on Qwen3 1.7B, with an evaluation-first path toward LoRA and routing | Python, Transformers |
