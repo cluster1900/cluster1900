@@ -44,7 +44,6 @@ about taking difficult systems from first principles to production.
 - Built EVM and UTXO chain scanners, transaction-signing systems, cross-chain swap services, certificate platforms, and application-security tooling
 - Led platform work for a healthcare IM system supporting large groups, 1M+ concurrent users, and 1B+ persisted chat records
 - Migrated nearly 300 mixed-language microservices toward a Kubernetes and service-mesh platform with automated environments and delivery workflows
-- Contributed to [GoFrame](https://goframe.org/) around ORM and HTTP framework work
 
 ## Areas of depth
 
