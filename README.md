@@ -40,12 +40,11 @@ I like difficult systems because they force the important questions into the ope
 
 ## Engineering track record
 
-- **KuCoin Web3 Wallet — Architecture expert, 2024.07–present**: work on wallet and on-chain infrastructure, including node access, chain data queries, transaction broadcasting, scanners, asset aggregation, market and coin services, gateway boundaries, signer integration, and reusable chain adapters.
-- **Bitget Wallet — blockchain wallet platform, 2023.09–2024.07**: contributed to wallet services spanning 100+ chains and 100+ DEXs, including DEX aggregation, Market Registry, routing, EVM and UTXO parsing, signing, broadcasting, asset accuracy, retries, and operational alerts.
-- **CoinW / exchange and crypto systems**: built production crypto systems and platform capabilities across exchange, wallet, market data, and chain-facing services.
-- **Chengdu Medlinker — senior engineer**: led platform and architecture work for a healthcare IM product, including a mixed-language microservice platform of nearly 300 services, service governance, automated delivery, and an IM system supporting 1M+ concurrent users and 1B+ persisted chat records.
-- **Starmaker — Golang Expert, 2017.06–2023.09**: worked on social, audio, video, live-streaming, content distribution, account, media processing, edge delivery, gateway, monitoring, recommendation, and moderation services.
-- **Monster-lab and earlier work, 2012.10–2017.06**: built backend systems for social products, content and file services, business platforms, monitoring, security checks, and high-concurrency applications.
+- **CoinW — blockchain and exchange infrastructure**: currently building wallet and on-chain services, including node access, chain data, transaction broadcasting, scanners, asset aggregation, market and coin services, gateway boundaries, signer integration, and reusable chain adapters.
+- **Bitget and KuCoin Wallet platforms**: designed and operated multi-chain wallet capabilities across 100+ chains and 100+ DEXs, covering DEX aggregation, routing, Market Registry, EVM and UTXO parsing, signing, broadcasting, asset accuracy, retries, and operational alerts.
+- **Chengdu Medlinker — senior engineer**: led architecture and platform work for healthcare IM, including nearly 300 services, service governance, automated delivery, and an IM system supporting 1M+ concurrent users and 1B+ persisted chat records.
+- **Starmaker — Golang Expert**: built backend systems for social, audio, video, live-streaming, content distribution, media processing, gateways, monitoring, recommendation, and moderation.
+- **Earlier roles**: developed high-concurrency services for social products, content and file platforms, business systems, monitoring, and security checks.
 
 Across these roles I have designed and operated multi-chain wallet foundations, EVM and UTXO scanners, signing and broadcasting systems, cross-chain swap services, DEX aggregation, market data pipelines, certificate and domain automation, service-mesh platforms, and application-security tooling.
 
