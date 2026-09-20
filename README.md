@@ -4,12 +4,11 @@
 
 # Hawk Wu / cluster1900
 
-**AI systems architect | Exchange and DEX infrastructure | LLM and agent engineer**
+**AI systems architect | LLM training and inference | Exchange and Web3 infrastructure**
 
-I am a software architect with 13+ years of experience building high-concurrency,
-high-availability products. My work spans exchanges, multi-chain wallets, DEX
-infrastructure, distributed systems, coding agents, and applied AI. I care about
-taking difficult systems from first principles to production.
+I am a software architect and backend engineer with 13+ years of experience building high-concurrency, high-availability products. I have worked across social and media platforms, healthcare IM, exchanges, multi-chain wallets, DEX infrastructure, distributed systems, coding agents, and applied AI.
+
+I like difficult systems because they force the important questions into the open: what is the source of truth, what happens when a dependency fails, how do we observe the system, and can another engineer reproduce the result? My current work connects those questions across model training, model serving, agent products, and on-chain infrastructure.
 
 [![Website](https://img.shields.io/badge/Website-agent--buy.com-0A66C2?style=flat-square)](https://agent-buy.com)
 [![AI Learn](https://img.shields.io/badge/AI%20Learn-ai--learn.agent--buy.com-4C6FFF?style=flat-square)](https://ai-learn.agent-buy.com)
@@ -18,19 +17,21 @@ taking difficult systems from first principles to production.
 
 ## What I am building now
 
-- **Deriw**: an AI-operable decentralized perpetual exchange on a dedicated Ethereum L3, spanning smart contracts, cross-chain flows, trading infrastructure, and agent skills
-- **A new LLM**: active model development; details and code will be shared as the project matures
-- **LLM inference infrastructure**: deploying Qwen3.6-35B-A3B FP16 on Ascend NPUs, with monolithic and disaggregated Prefill/Decode inference, K3s, GitOps, observability, and benchmarking
-- **Coding Agent**: a practical Rust-based coding agent and harness, exploring tools, memory, evaluation, and reliable engineering workflows
-- **Robust speech recognition**: Qwen3 1.7B ASR work with baseline inference, WER/CER evaluation, LoRA, and routing experiments
-- **Sports AI**: private product work combining agents, sports data, analysis, and user-facing intelligence
+- **Mini K3 / DeepSeek training engineering**: building an auditable small-model training track around Kimi K3 and DeepSeek-related components. The current Mini K3 target is about 1.02B parameters, with 9 KDA layers, 3 MLA layers, a routed MoE, and a training plan for 4× Tesla V100-SXM2 GPUs. The work covers model code, data provenance, cleaning, exact and near deduplication, 13-gram contamination checks, tokenizer verification, uint32 shards, manifests, smoke tests, checkpoint recovery, profiling, and evaluation. The project is ongoing; reports distinguish data preparation, smoke validation, and full training.
+- **[pretraining-a-mini-kimi-k3](https://github.com/cluster1900/pretraining-a-mini-kimi-k3)**: a 30-chapter engineering notebook and runnable training workspace covering model design, dataset construction, training loops, MoE routing, performance work, distributed execution, and evaluation.
+- **LLM inference infrastructure**: deploying Qwen3.6-35B-A3B FP16 on Ascend NPUs, comparing monolithic and disaggregated Prefill/Decode serving with K3s, GitOps, observability, and benchmarks.
+- **Coding Agent**: developing a practical Rust-based agent harness and exploring tools, memory, context management, evaluation, and reliable execution workflows.
+- **Robust speech recognition**: working with Qwen3 1.7B ASR, baseline inference, WER/CER evaluation, LoRA, and routing experiments.
+- **Deriw**: building an AI-operable decentralized perpetual exchange on a dedicated Ethereum L3, spanning smart contracts, cross-chain flows, trading infrastructure, and agent skills.
+- **Sports AI**: private product work combining agents, sports data, analysis, and user-facing intelligence.
 
 ## Selected work
 
 | Project | What it explores | Stack |
 | --- | --- | --- |
+| [pretraining-a-mini-kimi-k3](https://github.com/cluster1900/pretraining-a-mini-kimi-k3) | Mini K3 / DeepSeek-related model training, auditable data preparation, profiling, distributed training, and evaluation | Python, PyTorch, CUDA, NCCL |
 | [Deriw](https://github.com/deriwfi) | An AI-operable perpetual DEX, dedicated Ethereum L3, cross-chain flows, and on-chain trading skills | Solidity, Go, JavaScript |
-| [APDEX](https://github.com/cluster1900/apdex) | A personal, independently engineered multi-chain DEX backend, built by hand without AI-generated implementation | Go, Node.js, Solana Anchor |
+| [APDEX](https://github.com/cluster1900/apdex) | An independently engineered multi-chain DEX backend and trading infrastructure project | Go, Node.js, Solana Anchor |
 | [ai-engineering-from-scratch-zh](https://github.com/cluster1900/ai-engineering-from-scratch-zh) | A practical Chinese AI engineering course, from linear algebra to agent systems | Python, TypeScript, Rust, Julia |
 | [opencode-rs](https://github.com/cluster1900/opencode-rs) | A Rust coding-agent harness focused on usable engineering workflows | Rust, LLM agents |
 | [lora-asr](https://github.com/cluster1900/lora-asr) | Robust ASR based on Qwen3 1.7B, with an evaluation-first path toward LoRA and routing | Python, Transformers |
@@ -39,27 +40,35 @@ taking difficult systems from first principles to production.
 
 ## Engineering track record
 
-- Building production crypto systems at **CoinW**, after architecture and engineering roles across **KuCoin** and **Bitget**
-- Designed core infrastructure for multi-chain Web3 wallets and DEX products, including market data, token services, gateways, routing, node access, signing, broadcasting, and chain indexing
-- Worked on wallet products supporting **11 chains**, and later infrastructure spanning **100+ chains and 100+ DEXs**
-- Built EVM and UTXO chain scanners, transaction-signing systems, cross-chain swap services, certificate platforms, and application-security tooling
-- Led platform work for a healthcare IM system supporting large groups, 1M+ concurrent users, and 1B+ persisted chat records
-- Migrated nearly 300 mixed-language microservices toward a Kubernetes and service-mesh platform with automated environments and delivery workflows
-- Built large-scale social, video, and live-streaming backends before moving into exchange, wallet, and on-chain systems
+- **KuCoin Web3 Wallet — Architecture expert, 2024.07–present**: work on wallet and on-chain infrastructure, including node access, chain data queries, transaction broadcasting, scanners, asset aggregation, market and coin services, gateway boundaries, signer integration, and reusable chain adapters.
+- **Bitget Wallet — blockchain wallet platform, 2023.09–2024.07**: contributed to wallet services spanning 100+ chains and 100+ DEXs, including DEX aggregation, Market Registry, routing, EVM and UTXO parsing, signing, broadcasting, asset accuracy, retries, and operational alerts.
+- **CoinW / exchange and crypto systems**: built production crypto systems and platform capabilities across exchange, wallet, market data, and chain-facing services.
+- **Chengdu Medlinker — senior engineer**: led platform and architecture work for a healthcare IM product, including a mixed-language microservice platform of nearly 300 services, service governance, automated delivery, and an IM system supporting 1M+ concurrent users and 1B+ persisted chat records.
+- **Starmaker — Golang Expert, 2017.06–2023.09**: worked on social, audio, video, live-streaming, content distribution, account, media processing, edge delivery, gateway, monitoring, recommendation, and moderation services.
+- **Monster-lab and earlier work, 2012.10–2017.06**: built backend systems for social products, content and file services, business platforms, monitoring, security checks, and high-concurrency applications.
+
+Across these roles I have designed and operated multi-chain wallet foundations, EVM and UTXO scanners, signing and broadcasting systems, cross-chain swap services, DEX aggregation, market data pipelines, certificate and domain automation, service-mesh platforms, and application-security tooling.
+
+## How I work
+
+- **Start from invariants**: define ownership, state transitions, failure modes, and acceptance checks before optimizing implementation details.
+- **Keep data traceable**: record source, version, license, hashes, processing scripts, statistics, and evaluation boundaries when data influences a model or a product.
+- **Make production behavior visible**: use metrics, logs, checkpoints, smoke tests, reproducible commands, and recovery paths so that a running process is not mistaken for a completed result.
+- **Write for the next engineer**: keep architecture decisions, trade-offs, failed experiments, and operational procedures close to the code.
 
 ## Areas of depth
 
-**AI and agents**
+**AI and model systems**
 
-LLM development, coding agents, RAG, memory, tool use, evaluation loops, LoRA, ASR, and AI-native product workflows.
+LLM development, model training, MoE, MLA, KDA, tokenizer and data pipelines, coding agents, RAG, memory, tool use, evaluation loops, LoRA, ASR, inference serving, long-context experiments, and AI-native product workflows.
 
 **Crypto and Web3**
 
-Exchange systems, wallet infrastructure, EVM, Solidity, DEX aggregation, perpetual markets, L3 rollups, account abstraction, gasless transactions, chain indexing, and multi-chain asset systems.
+Exchange systems, wallet infrastructure, EVM, UTXO, Solidity, DEX aggregation, perpetual markets, L3 rollups, account abstraction, gasless transactions, chain indexing, multi-chain assets, signing, broadcasting, and cross-chain execution.
 
 **Distributed systems**
 
-Go and Rust services, high-concurrency architecture, TCP/UDP/HTTP, Redis, MongoDB, MySQL, Elasticsearch, Kubernetes, service mesh, observability, CI/CD, and AWS operations.
+Go and Rust services, high-concurrency architecture, TCP/UDP/HTTP, Redis, MongoDB, MySQL, Elasticsearch, Kubernetes, K3s, service mesh, observability, CI/CD, GitOps, and AWS operations.
 
 ## Toolbox
 
@@ -79,7 +88,6 @@ Go and Rust services, high-concurrency architecture, TCP/UDP/HTTP, Redis, MongoD
 ![LoRA / QLoRA](https://img.shields.io/badge/LoRA%20%2F%20QLoRA-0F9D8A?style=flat-square)
 ![LLM Agents](https://img.shields.io/badge/LLM%20Agents-FF6B35?style=flat-square)
 ![RAG](https://img.shields.io/badge/RAG-4C6FFF?style=flat-square)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![ASR](https://img.shields.io/badge/ASR-00897B?style=flat-square)
 ![Model Serving](https://img.shields.io/badge/Model%20Serving-6A5ACD?style=flat-square)
 ![Evaluation](https://img.shields.io/badge/Model%20Evaluation-D1495B?style=flat-square)
