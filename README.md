@@ -6,7 +6,7 @@
 
 **AI systems architect | LLM training and inference | Exchange and Web3 infrastructure**
 
-I am a software architect and backend engineer with 13+ years of experience building high-concurrency, high-availability products. I have worked across social and media platforms, healthcare IM, exchanges, multi-chain wallets, DEX infrastructure, distributed systems, coding agents, and applied AI.
+I am a software architect and backend engineer with extensive experience building high-concurrency, high-availability products. I have worked across social and media platforms, healthcare IM, exchanges, multi-chain wallets, DEX infrastructure, distributed systems, coding agents, and applied AI.
 
 I like difficult systems because they force the important questions into the open: what is the source of truth, what happens when a dependency fails, how do we observe the system, and can another engineer reproduce the result? My current work connects those questions across model training, model serving, agent products, and on-chain infrastructure.
 
