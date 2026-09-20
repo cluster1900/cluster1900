@@ -10,8 +10,8 @@ I am a software architect and backend engineer with extensive experience buildin
 
 I like difficult systems because they force the important questions into the open: what is the source of truth, what happens when a dependency fails, how do we observe the system, and can another engineer reproduce the result? My current work connects those questions across model training, model serving, agent products, and on-chain infrastructure.
 
-[![Website](https://img.shields.io/badge/Website-agent--buy.com-0A66C2?style=flat-square)](https://agent-buy.com)
-[![AI Learn](https://img.shields.io/badge/AI%20Learn-ai--learn.agent--buy.com-4C6FFF?style=flat-square)](https://ai-learn.agent-buy.com)
+[![Website](https://img.shields.io/badge/Website-apexolab.com-0A66C2?style=flat-square)](https://apexolab.com)
+[![vLLM Reader](https://img.shields.io/badge/vLLM%20Reader-vllm__reader-4C6FFF?style=flat-square)](https://cluster1900.github.io/vllm_reader/)
 [![X](https://img.shields.io/badge/X-@Wu005887-111111?style=flat-square&logo=x)](https://x.com/Wu005887)
 [![GitHub](https://img.shields.io/badge/GitHub-cluster1900-24292F?style=flat-square&logo=github)](https://github.com/cluster1900)
 
@@ -101,7 +101,7 @@ Go and Rust services, high-concurrency architecture, TCP/UDP/HTTP, Redis, MongoD
 
 ## Find me
 
-- Website: [agent-buy.com](https://agent-buy.com)
-- AI notes and courses: [ai-learn.agent-buy.com](https://ai-learn.agent-buy.com)
+- Website: [apexolab.com](https://apexolab.com)
+- vLLM Reader: [cluster1900.github.io/vllm_reader](https://cluster1900.github.io/vllm_reader/)
 - X: [@Wu005887](https://x.com/Wu005887)
 - GitHub: [github.com/cluster1900](https://github.com/cluster1900)
