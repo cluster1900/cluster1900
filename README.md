@@ -1,50 +1,107 @@
 <p align="center">
-  <img src="./assets/profile-banner.jpg" alt="cluster1900 banner" width="100%" />
+  <img src="./assets/profile-banner.jpg" alt="Hawk Wu AI systems workspace banner" width="100%" />
 </p>
 
-# Hi，我是 Hawk Wu 👋
+# Hawk Wu / cluster1900
 
-**写中文 LLM / AI 工程教程，也做实用的 Agent 与 Coding Agent。**
-*Chinese-language LLM & AI-engineering tutorials · building practical agents.*
+**AI systems architect | LLM training and inference | Exchange and Web3 infrastructure**
 
-我把读源码、训模型、做 Agent 的过程整理成**能跑、能验证**的中文教程：从高中数学讲到 Transformer，从 vLLM / MiniMind 源码讲到自己动手预训练。之前长期做后端与分布式系统、交易所和多链钱包基础设施，现在专注 AI 工程。
+I am a software architect and backend engineer with extensive experience building high-concurrency, high-availability products. I have worked across social and media platforms, healthcare IM, exchanges, multi-chain wallets, DEX infrastructure, distributed systems, coding agents, and applied AI.
 
-[![Website](https://img.shields.io/badge/Blog-apexolab.com-0A66C2?style=flat-square)](https://apexolab.com)
+I like difficult systems because they force the important questions into the open: what is the source of truth, what happens when a dependency fails, how do we observe the system, and can another engineer reproduce the result? My current work connects those questions across model training, model serving, agent products, and on-chain infrastructure.
+
+[![Website](https://img.shields.io/badge/Website-apexolab.com-0A66C2?style=flat-square)](https://apexolab.com)
+[![vLLM Reader](https://img.shields.io/badge/vLLM%20Reader-vllm__reader-4C6FFF?style=flat-square)](https://cluster1900.github.io/vllm_reader/)
 [![X](https://img.shields.io/badge/X-@Wu005887-111111?style=flat-square&logo=x)](https://x.com/Wu005887)
+[![GitHub](https://img.shields.io/badge/GitHub-cluster1900-24292F?style=flat-square&logo=github)](https://github.com/cluster1900)
 
-## 📚 教程与项目索引
+## What I am building now
 
-### 从零学 AI
+- **[Kimi K3 / DeepSeek-style 1B model training](https://github.com/cluster1900/pretraining-a-mini-kimi-k3/tree/main/train)**: an ongoing training engineering project. The `train/` workspace implements KDA and MLA attention, routed MoE layers, KV-cache paths, fused kernels, a 4× Tesla V100 FP16/NCCL runner, WSD scheduling, MoE load balancing, telemetry, loss-spike protection, atomic checkpoint recovery, validation, and profiling. Its data pipeline records source and license provenance, converts and cleans heterogeneous corpora, performs exact and near deduplication plus 13-gram decontamination, verifies tokenizer equivalence, writes uint32 shards, audits manifests, and runs real-data smoke tests. Current work is finishing verified data preparation and distributed pretraining readiness, followed by alignment and long-context evaluation.
+- **[vllm_reader](https://github.com/cluster1900/vllm_reader)**: source-level research and runnable experiments for vLLM V1, covering request lifecycle, Engine and EngineCore, scheduling and continuous batching, KV cache and PagedAttention, model execution, async execution and CUDA Graphs, distributed inference, and performance analysis. The [documentation site](https://cluster1900.github.io/vllm_reader/) provides the reading path and rendered examples.
+- **LLM inference infrastructure**: deploying Qwen3.6-35B-A3B FP16 on Ascend NPUs, comparing monolithic and disaggregated Prefill/Decode serving with K3s, GitOps, observability, and benchmarks.
+- **Coding Agent**: developing a practical Rust-based agent harness and exploring tools, memory, context management, evaluation, and reliable execution workflows.
+- **Robust speech recognition**: working with Qwen3 1.7B ASR, baseline inference, WER/CER evaluation, LoRA, and routing experiments.
+- **Deriw**: building an AI-operable decentralized perpetual exchange on a dedicated Ethereum L3, spanning smart contracts, cross-chain flows, trading infrastructure, and agent skills.
+- **Sports AI**: private product work combining agents, sports data, analysis, and user-facing intelligence.
 
-| 项目 | 简介 |
-| --- | --- |
-| [ai-engineering-from-scratch-zh](https://github.com/cluster1900/ai-engineering-from-scratch-zh) · [网站](https://ai-learn.apexolab.com/) | 《AI Engineering from Scratch》中文版：20 个阶段、500+ 节课，从线性代数一路到 Agent 与 MCP |
-| [zero2llm](https://github.com/cluster1900/zero2llm) · [在线阅读](https://cluster1900.github.io/zero2llm/) | 写给初学者的 Transformer：高中数学 + 逐行 PyTorch，亲手训练一个 Baby-GPT（含 EPUB） |
-| [ai-engineering-interview-questions-CN](https://github.com/cluster1900/ai-engineering-interview-questions-CN) | AI / LLM / Agent 工程师中文面试题与参考答案：RAG、Agent、微调、LLMOps、系统设计 |
+## Selected work
 
-### 源码阅读
+| Project | What it explores | Stack |
+| --- | --- | --- |
+| [pretraining-a-mini-kimi-k3](https://github.com/cluster1900/pretraining-a-mini-kimi-k3) | Training code, auditable data preparation, distributed pretraining, profiling, and evaluation | Python, PyTorch, CUDA, NCCL |
+| [vllm_reader](https://github.com/cluster1900/vllm_reader) · [docs](https://cluster1900.github.io/vllm_reader/) | vLLM V1 source architecture, request scheduling, KV cache, execution, distributed inference, and performance experiments | Python, PyTorch, vLLM, CUDA |
+| [Deriw](https://github.com/deriwfi) | An AI-operable perpetual DEX, dedicated Ethereum L3, cross-chain flows, and on-chain trading skills | Solidity, Go, JavaScript |
+| [APDEX](https://github.com/cluster1900/apdex) | An independently engineered multi-chain DEX backend and trading infrastructure project | Go, Node.js, Solana Anchor |
+| [ai-engineering-from-scratch-zh](https://github.com/cluster1900/ai-engineering-from-scratch-zh) | A practical Chinese AI engineering course, from linear algebra to agent systems | Python, TypeScript, Rust, Julia |
+| [opencode-rs](https://github.com/cluster1900/opencode-rs) | A Rust coding-agent harness focused on usable engineering workflows | Rust, LLM agents |
+| [lora-asr](https://github.com/cluster1900/lora-asr) | Robust ASR based on Qwen3 1.7B, with an evaluation-first path toward LoRA and routing | Python, Transformers |
+| [eip7702-fulldemo](https://github.com/cluster1900/eip7702-fulldemo) | A complete EIP-7702 gasless transaction demo | Solidity |
+| [ai-engineering-interview-questions-CN](https://github.com/cluster1900/ai-engineering-interview-questions-CN) | Chinese AI engineering interview questions and answers | Markdown |
 
-| 项目 | 简介 |
-| --- | --- |
-| [vllm_reader](https://github.com/cluster1900/vllm_reader) · [在线阅读](https://cluster1900.github.io/vllm_reader/) | vLLM V1 源码图文教程：请求生命周期、调度与 Continuous Batching、KV Cache、PagedAttention、分布式推理 |
-| [minimind_reader](https://github.com/cluster1900/minimind_reader) · [在线阅读](https://cluster1900.github.io/minimind_reader/) | 从零读懂大模型：MiniMind / MiniMind-V / MiniMind-O 源码精读，20 章，附 EPUB / PDF 与 CPU 实验 |
+## Engineering track record
 
-### 动手训练与 Agent
+- **CoinW — blockchain and exchange infrastructure**: currently building wallet and on-chain services, including node access, chain data, transaction broadcasting, scanners, asset aggregation, market and coin services, gateway boundaries, signer integration, and reusable chain adapters.
+- **Bitget and KuCoin Wallet platforms**: designed and operated multi-chain wallet capabilities across 100+ chains and 100+ DEXs, covering DEX aggregation, routing, Market Registry, EVM and UTXO parsing, signing, broadcasting, asset accuracy, retries, and operational alerts.
+- **Chengdu Medlinker — senior engineer**: led architecture and platform work for healthcare IM, including nearly 300 services, service governance, automated delivery, and an IM system supporting 1M+ concurrent users and 1B+ persisted chat records.
+- **Starmaker — Golang Expert**: built backend systems for social, audio, video, live-streaming, content distribution, media processing, gateways, monitoring, recommendation, and moderation.
+- **Earlier roles**: developed high-concurrency services for social products, content and file platforms, business systems, monitoring, and security checks.
 
-| 项目 | 简介 |
-| --- | --- |
-| [pretraining-a-mini-kimi-k3](https://github.com/cluster1900/pretraining-a-mini-kimi-k3) | 正在从 0 训练的约 1.15B 参数（激活约 0.16B）Kimi-K3 风格 MoE 模型：KDA + MLA 混合注意力，4×V100 分布式预训练（训练中） |
-| [lora-asr](https://github.com/cluster1900/lora-asr) | 基于 Qwen3-ASR-1.7B 的鲁棒语音识别后训练：SFT → DPO → RL，中英文 WER/CER 评测 |
-| [opencode-rs](https://github.com/cluster1900/opencode-rs) | 用 Rust 重写 opencode：可审计、可测试的 Coding Agent 内核（重构中） |
+Across these roles I have designed and operated multi-chain wallet foundations, EVM and UTXO scanners, signing and broadcasting systems, cross-chain swap services, DEX aggregation, market data pipelines, certificate and domain automation, service-mesh platforms, and application-security tooling.
 
-## 🔭 最近在做
+## How I work
 
-- 小型 Kimi-K3 风格模型的数据准备与分布式预训练，过程会整理成教程
-- Rust Coding Agent 的 harness、工具调用与评测
-- 昇腾 NPU 上的大模型推理部署（Prefill/Decode 分离对比）
+- **Start from invariants**: define ownership, state transitions, failure modes, and acceptance checks before optimizing implementation details.
+- **Keep data traceable**: record source, version, license, hashes, processing scripts, statistics, and evaluation boundaries when data influences a model or a product.
+- **Make production behavior visible**: use metrics, logs, checkpoints, smoke tests, reproducible commands, and recovery paths so that a running process is not mistaken for a completed result.
+- **Write for the next engineer**: keep architecture decisions, trade-offs, failed experiments, and operational procedures close to the code.
 
-## 📫 联系我
+## Areas of depth
 
-- 博客：[apexolab.com](https://apexolab.com)
-- X：[@Wu005887](https://x.com/Wu005887)
-- 教程有错误或想看的主题，欢迎直接提 Issue；觉得有用的话点个 ⭐ 就是最大的支持。
+**AI and model systems**
+
+LLM development, model training, MoE, MLA, KDA, tokenizer and data pipelines, coding agents, RAG, memory, tool use, evaluation loops, LoRA, ASR, inference serving, long-context experiments, and AI-native product workflows.
+
+**Crypto and Web3**
+
+Exchange systems, wallet infrastructure, EVM, UTXO, Solidity, DEX aggregation, perpetual markets, L3 rollups, account abstraction, gasless transactions, chain indexing, multi-chain assets, signing, broadcasting, and cross-chain execution.
+
+**Distributed systems**
+
+Go and Rust services, high-concurrency architecture, TCP/UDP/HTTP, Redis, MongoDB, MySQL, Elasticsearch, Kubernetes, K3s, service mesh, observability, CI/CD, GitOps, and AWS operations.
+
+## Toolbox
+
+**Languages and protocols**
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3176C6?style=flat-square&logo=typescript&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+
+**AI and model systems**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat-square)
+![Qwen](https://img.shields.io/badge/Qwen-615CED?style=flat-square)
+![LoRA / QLoRA](https://img.shields.io/badge/LoRA%20%2F%20QLoRA-0F9D8A?style=flat-square)
+![LLM Agents](https://img.shields.io/badge/LLM%20Agents-FF6B35?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-4C6FFF?style=flat-square)
+![ASR](https://img.shields.io/badge/ASR-00897B?style=flat-square)
+![Model Serving](https://img.shields.io/badge/Model%20Serving-6A5ACD?style=flat-square)
+![Evaluation](https://img.shields.io/badge/Model%20Evaluation-D1495B?style=flat-square)
+
+**Infrastructure and Web3**
+
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![K3s](https://img.shields.io/badge/K3s-FFC61C?style=flat-square&logo=k3s&logoColor=black)
+![Ascend NPU](https://img.shields.io/badge/Ascend%20NPU-C7000B?style=flat-square)
+![Web3](https://img.shields.io/badge/Web3-7B2CBF?style=flat-square)
+
+## Find me
+
+- Website: [apexolab.com](https://apexolab.com)
+- vLLM Reader: [cluster1900.github.io/vllm_reader](https://cluster1900.github.io/vllm_reader/)
+- X: [@Wu005887](https://x.com/Wu005887)
+- GitHub: [github.com/cluster1900](https://github.com/cluster1900)
