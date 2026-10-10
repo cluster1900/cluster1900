@@ -34,7 +34,7 @@ I like difficult systems because they force the important questions into the ope
 | [Deriw](https://github.com/deriwfi) | An AI-operable perpetual DEX, dedicated Ethereum L3, cross-chain flows, and on-chain trading skills | Solidity, Go, JavaScript |
 | [APDEX](https://github.com/cluster1900/apdex) | An independently engineered multi-chain DEX backend and trading infrastructure project | Go, Node.js, Solana Anchor |
 | [ai-engineering-from-scratch-zh](https://github.com/cluster1900/ai-engineering-from-scratch-zh) | A practical Chinese AI engineering course, from linear algebra to agent systems | Python, TypeScript, Rust, Julia |
-| [opencode-rs](https://github.com/cluster1900/opencode-rs) | A Rust coding-agent harness focused on usable engineering workflows | Rust, LLM agents |
+| [apexo-grok](https://github.com/cluster1900/apexo-grok) | Apexo: a Grok-first UI harness for coding agents (terminal + desktop), built to support Grok Build | TypeScript, Bun, LLM agents |
 | [lora-asr](https://github.com/cluster1900/lora-asr) | Robust ASR based on Qwen3 1.7B, with an evaluation-first path toward LoRA and routing | Python, Transformers |
 | [eip7702-fulldemo](https://github.com/cluster1900/eip7702-fulldemo) | A complete EIP-7702 gasless transaction demo | Solidity |
 | [ai-engineering-interview-questions-CN](https://github.com/cluster1900/ai-engineering-interview-questions-CN) | Chinese AI engineering interview questions and answers | Markdown |
